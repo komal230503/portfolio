@@ -1,0 +1,168 @@
+*
+body{
+    background-color:#333;
+    background-image: url("C:/Users/KOMAL RANI/Pictures/Screenshots/Screenshot 2024-04-21 131329.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.header{
+   display:flex;
+   justify-content: flex-end;
+     font-family: sans-serif;
+    font-size: 20px;
+    padding:10px;
+    background-color: #fff;
+}
+.name{
+ margin-right: auto;
+ font-size:20px;
+ text-decoration: none;
+ color:#333;
+}
+.tags a{
+    font-size:20px ;
+    margin-left: 15px;
+    text-decoration: none;
+    color:black;
+
+}
+#resume a{
+    color: white;
+    padding: 40px 80px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+h6{
+    color: #333;
+    font-size: 30px;  
+}
+h2{
+    color: #333;
+    font-size: 30px;  
+     
+}
+p{
+    color: #333;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1px;
+}
+.text{
+    font-size: 15px;
+    padding-left: 20px;
+    
+    
+}
+h3{
+    color: #333;
+    font-size: 25px;
+}
+.ts{
+    width:700px;
+    font-size: 19px;
+    color:#151B54;
+    margin:60px auto;
+    padding:20px;
+    box-shadow: 2px 2px 6px rgb(173, 173, 173);
+    text-align: left;
+    
+    margin-left: 240px;
+}
+
+
+.bar{
+    display: block;
+    background: white;
+    height:20px;
+    border:1px solid white;
+    border-radius: 10px;
+    overflow:hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px whitesmoke;
+}
+.bar:hover{
+    box-shadow: 0 14px 28px whitesmoke;
+}
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg, rgb(188, 2, 123)0%,rgb(180, 7, 85));
+
+}
+.HTML{
+    width:90%;
+    animation: HTML 3s;
+}
+.CSS{
+    width:60%;
+    animation: CSS 3s;
+}
+.Js{
+    width:65%;
+    animation: Js 3s;
+}
+.Python{
+    width:50%;
+    animation: Python 3s;
+}
+@keyframes HTML {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:99%;
+    }
+}
+@keyframes CSS {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes Js {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes Python {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+.skills{
+    color:#03040c;
+    font-size:40px;
+    text-align: left;
+    margin-left: 60px;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+
+}
+
